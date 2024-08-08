@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<footer class="ps-footer" th:fragment="footer">
+    <div class="ps-footer__content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12  ">
+                    <div class="ps-site-info"><a class="ps-logo" href="#"><img th:src="@{/assets/img/logo.png}" alt=""></a>
+                        <figure>
+                            <p><i class="pe-7s-map-marker"></i> 184 Main Rd E, St Albans <br> VIC 3021, Australia</p>
+                            <p><i class="pe-7s-mail"></i><a href="https://nouthemes.net/cdn-cgi/l/email-protection#9dfef2f3e9fcfee9ddfef2f0edfcf3e4b3fef2f0"><span class="__cf_email__" data-cfemail="086b67667c696b7c486b676578696671266b6765">[email&#160;protected]</span></a></p>
+                            <p><i class="pe-7s-call"></i> +001 2233 456</p>
+                        </figure>
+                        <ul class="ps-list--social">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12  ">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="widget widget_footer">
+                                <h3 class="widget-title">Categories</h3>
+                                <ul>
+                                    <li><a href="shop-4-column.html">Men</a></li>
+                                    <li><a href="shop-4-column.html">Women</a></li>
+                                    <li><a href="shop-4-column.html">Accessories</a></li>
+                                    <li><a href="shop-4-column.html">Shoes</a></li>
+                                    <li><a href="shop-4-column.html">Denim</a></li>
+                                    <li><a href="shop-4-column.html">Dress</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="widget widget_footer">
+                                <h3 class="widget-title">Infomation</h3>
+                                <ul>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                                    <li><a href="returns-exchanges.html">Returns & Exchanges</a></li>
+                                    <li><a href="#">Shipping & Delivery</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6 ">
+                            <div class="widget widget_footer">
+                                <h3 class="widget-title">Quick Links</h3>
+                                <ul>
+                                    <li><a href="#">Store Location</a></li>
+                                    <li><a href="my-account.html">My Account</a></li>
+                                    <li><a href="orders-tracking.html">Orders Tracking</a></li>
+                                    <li><a href="size-guides.html">Size Guide</a></li>
+                                    <li><a href="faqs.html">FAQs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                    <form class="ps-form--subscribe-footer" action="https://nouthemes.net/html/claue/do_action" method="post">
+                        <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Your EmaiL Address">
+                            <button>Subscribe</button>
+                        </div><img th:src="@{/assets/img/payment2.png}" alt="">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ps-footer__copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                    <p>Copyright © 2016 <a href="#">Claue</a> all rights reserved. Powered by <a href="#">JanStudio</a></p>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                    <ul class="ps-footer__nav">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="about-us.html">Contact</a></li>
+                        <li><a href="about-us.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<th:block th:fragment="header">
+    <header class="header header--1" data-sticky="true">
+        <div class="header__top">
+            <div class="header__left">
+                <p><span><i class="pe-7s-call"></i> +01 23456789</span><span><i class="pe-7s-mail"></i><a href="mailto%40gmail.html"> <span class="__cf_email__" data-cfemail="f99a95988c9cb99d9694989097d79a9694">[email&#160;protected]</span></a></span></p>
+            </div>
+            <div class="header__center">
+                <p>Summer sale discount off <span>50%!</span><a href="shop-4-column.html"> Shop Now</a></p>
+            </div>
+            <div class="header__right">
+                <div class="ps-dropdown"><a href="#">USD</a>
+                    <ul class="ps-dropdown-menu">
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">SGD</a></li>
+                        <li><a href="#">AUD</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="navigation__left"><a class="ps-logo" href="index-2.html"><img th:src="@{/assets/img/logo.png}" alt=""></a></div>
+            <div class="navigation__center">
+                <ul class="menu">
+                    <li class="current-menu-item menu-item-has-children has-mega-menu"><a href="index-2.html">Demo</a><span class="sub-toggle"></span>
+                        <div class="mega-menu">
+                            <div class="mega-menu__column">
+                                <h4>Homepage<span class="sub-toggle"></span></h4>
+                                <ul class="mega-menu__list">
+                                    <li><a href="index-2.html">Home 1</a>
+                                    </li>
+                                    <li><a href="homepage-2.html">Home 2</a>
+                                    </li>
+                                    <li><a href="homepage-3.html">Home 3</a>
+                                    </li>
+                                    <li><a href="homepage-4.html">Home 4</a>
+                                    </li>
+                                    <li><a href="homepage-5.html">Home 5</a>
+                                    </li>
+                                    <li><a href="homepage-6.html">Home 6</a>
+                                    </li>
+                                    <li><a href="homepage-7.html">Home 7</a>
+                                    </li>
+                                    <li><a href="homepage-8.html">Home 8</a>
+                                    </li>
+                                    <li><a href="homepage-9.html">Home 9</a>
+                                    </li>
+                                    <li><a class="has-badge" href="homepage-10.html">Home Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu__column">
+                                <h4>Header Layouts<span class="sub-toggle"></span></h4>
+                                <ul class="mega-menu__list">
+                                    <li><a href="header-1.html">Header 1</a>
+                                    </li>
+                                    <li><a href="header-2.html">Header 2</a>
+                                    </li>
+                                    <li><a href="header-3.html">Header 3</a>
+                                    </li>
+                                    <li><a href="header-4.html">Header 4</a>
+                                    </li>
+                                    <li><a href="header-5.html">Header 5</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-item-has-children"><a class="has-badge" href="shop-4-column.html">Shop</a><span class="sub-toggle"></span>
+                        <ul class="sub-menu">
+                            <li><a href="shop-4-column.html">Grid Layout</a></li>
+                            <li><a href="shop-metro.html">Metro Layout</a></li>
+                            <li><a href="shop-masonry.html">Massonry Layout</a></li>
+                            <li><a href="shop-fullwidth.html">Fullwidth Layout</a></li>
+                            <li><a href="shop-sidebar.html">Left Sidebar</a></li>
+                            <li><a href="shop-sidebar-right.html">Right Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children has-mega-menu"><a href="index-2.html">Product</a><span class="sub-toggle"></span>
+                        <div class="mega-menu">
+                            <div class="mega-menu__column">
+                                <h4>Product detail features<span class="sub-toggle"></span></h4>
+                                <ul class="mega-menu__list">
+                                    <li><a href="product-color-swatch.html">Product Color Swatch</a>
+                                    </li>
+                                    <li><a class="has-badge" href="product-gallery-swatch.html">Product Gallery Swatch</a>
+                                    </li>
+                                    <li><a href="product-image-swatch.html">Product Images Swatch</a>
+                                    </li>
+                                    <li><a href="product-360-video.html">Product 360 Video</a>
+                                    </li>
+                                    <li><a href="product-external.html">External/Affilitte Product</a>
+                                    </li>
+                                    <li><a href="product-group.html">Grouped Product</a>
+                                    </li>
+                                    <li><a class="has-badge hot" href="product-bundle.html">Product Bundle</a>
+                                    </li>
+                                    <li><a href="product-fullwidth.html">Product Full width layout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mega-menu__column">
+                                <h4>Product Detail Layout<span class="sub-toggle"></span></h4>
+                                <ul class="mega-menu__list">
+                                    <li><a href="product-standard.html">Product Standard</a>
+                                    </li>
+                                    <li><a href="product-gallery.html">Product Gallery</a>
+                                    </li>
+                                    <li><a href="product-sticky.html">Sticky</a>
+                                    </li>
+                                    <li><a class="has-badge hot" href="product-sticky-2.html">Product Sticky 2</a>
+                                    </li>
+                                    <li><a href="product-thumbnail-outside.html">Product thumbnail at outside</a>
+                                    </li>
+                                    <li><a href="product-thumbnail-bottom.html">Product thumbnail at Bottom</a>
+                                    </li>
+                                    <li><a href="product-thumbnail-right.html">Product thumbnail right</a>
+                                    </li>
+                                    <li><a href="product-accordion.html">Product Accordion</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a class="has-badge sale" href="shop-4-column.html">Sale</a>
+                    </li>
+                    <li class="menu-item-has-children"><a href="portfolio-2-columns.html">Portfolio</a><span class="sub-toggle"></span>
+                        <ul class="sub-menu">
+                            <li><a href="portfolio-2-columns.html">Portfolio 2 columns</a></li>
+                            <li><a href="portfolio-3-columns.html">Portfolio 3 columns</a></li>
+                            <li><a href="portfolio-4-columns.html">Portfolio 4 columns</a></li>
+                            <li><a href="portfolio-detail.html">Portfolio Detail</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="lookbook-in-product.html">Lookbook</a><span class="sub-toggle"></span>
+                        <ul class="sub-menu">
+                            <li><a href="lookbook-in-product.html">Lookbook In Product</a></li>
+                            <li><a href="lookbook-in-post.html">Lookbook In Single Blog Post</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a><span class="sub-toggle"></span>
+                        <ul class="sub-menu">
+                            <li><a href="blog-grid.html">Blog Grid</a></li>
+                            <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                            <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                            <li><a href="blog-detail.html">Blog Detail</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="navigation__right">
+                <div class="header__actions"><a class="ps-search-btn" href="#"><i class="pe-7s-search"></i></a>
+                    <div class="ps-dropdown"><a href="#"><i class="pe-7s-user"></i></a>
+                        <ul class="ps-dropdown-menu">
+                            <li><a href="my-account.html">Login/ Register</a></li>
+                        </ul>
+                    </div><a href="#"><i class="pe-7s-like"></i></a><a class="ps-cart-toggle" href="#"><i class="pe-7s-shopbag"></i><span><i>0</i></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header class="header header--mobile" data-sticky="true">
+        <div class="header__top">
+            <div class="header__left">
+                <p><span><i class="pe-7s-call"></i> +01 23456789</span><span><i class="pe-7s-mail"></i><a href="mailto%40gmail.html"> <span class="__cf_email__" data-cfemail="92f1fef3e7f7d2f6fdfff3fbfcbcf1fdff">[email&#160;protected]</span></a></span></p>
+            </div>
+            <div class="header__center">
+                <p>Summer sale discount off <span>50%!</span><a href="shop-4-column.html"> Shop Now</a></p>
+            </div>
+            <div class="header__right">
+                <div class="ps-dropdown"><a href="#">USD</a>
+                    <ul class="ps-dropdown-menu">
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">SGD</a></li>
+                        <li><a href="#">AUD</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="navigation--mobile">
+            <div class="navigation__left">
+                <div class="menu-toggle"><span></span></div>
+            </div>
+            <div class="navigation__center"><a class="ps-logo" href="index-2.html"><img th:src="@{/assets/img/logo.png}" alt=""></a></div>
+            <div class="navigation__right">
+                <div class="header__actions"><a class="ps-search-btn" href="#"><i class="pe-7s-search"></i></a>
+                    <div class="ps-dropdown"><a href="#"><i class="pe-7s-user"></i></a>
+                        <ul class="ps-dropdown-menu">
+                            <li><a href="my-account.html">Login/ Register</a></li>
+                        </ul>
+                    </div><a href="#"><i class="pe-7s-like"></i></a><a class="ps-cart-toggle" href="#"><i class="pe-7s-shopbag"></i><span><i>0</i></span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navigation--sidebar">
+        <div class="navigation__header">
+            <h3>Menu</h3><a class="ps-btn--close ps-btn--no-boder" href="#"></a>
+        </div>
+        <div class="navigation__content">
+            <div class="navigation__actions">
+                <div class="ps-dropdown"><a href="#">USD</a>
+                    <ul class="ps-dropdown-menu">
+                        <li><a href="#">USD</a></li>
+                        <li><a href="#">SGD</a></li>
+                        <li><a href="#">AUD</a></li>
+                    </ul>
+                </div>
+                <div class="header__actions"><a class="ps-search-btn" href="#"><i class="pe-7s-search"></i></a>
+                    <div class="ps-dropdown"><a href="#"><i class="pe-7s-user"></i></a>
+                        <ul class="ps-dropdown-menu">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Whishlist</a></li>
+                        </ul>
+                    </div><a href="#"><i class="pe-7s-like"></i></a>
+                </div>
+            </div>
+            <ul class="menu--mobile">
+                <li class="current-menu-item menu-item-has-children has-mega-menu"><a href="index-2.html">Demo</a><span class="sub-toggle"></span>
+                    <div class="mega-menu">
+                        <div class="mega-menu__column">
+                            <h4>Homepage<span class="sub-toggle"></span></h4>
+                            <ul class="mega-menu__list">
+                                <li><a href="index-2.html">Home 1</a>
+                                </li>
+                                <li><a href="homepage-2.html">Home 2</a>
+                                </li>
+                                <li><a href="homepage-3.html">Home 3</a>
+                                </li>
+                                <li><a href="homepage-4.html">Home 4</a>
+                                </li>
+                                <li><a href="homepage-5.html">Home 5</a>
+                                </li>
+                                <li><a href="homepage-6.html">Home 6</a>
+                                </li>
+                                <li><a href="homepage-7.html">Home 7</a>
+                                </li>
+                                <li><a href="homepage-8.html">Home 8</a>
+                                </li>
+                                <li><a href="homepage-9.html">Home 9</a>
+                                </li>
+                                <li><a class="has-badge" href="homepage-10.html">Home Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu__column">
+                            <h4>Header Layouts<span class="sub-toggle"></span></h4>
+                            <ul class="mega-menu__list">
+                                <li><a href="header-1.html">Header 1</a>
+                                </li>
+                                <li><a href="header-2.html">Header 2</a>
+                                </li>
+                                <li><a href="header-3.html">Header 3</a>
+                                </li>
+                                <li><a href="header-4.html">Header 4</a>
+                                </li>
+                                <li><a href="header-5.html">Header 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item-has-children"><a class="has-badge" href="shop-4-column.html">Shop</a><span class="sub-toggle"></span>
+                    <ul class="sub-menu">
+                        <li><a href="shop-4-column.html">Grid Layout</a></li>
+                        <li><a href="shop-metro.html">Metro Layout</a></li>
+                        <li><a href="shop-masonry.html">Massonry Layout</a></li>
+                        <li><a href="shop-fullwidth.html">Fullwidth Layout</a></li>
+                        <li><a href="shop-sidebar.html">Left Sidebar</a></li>
+                        <li><a href="shop-sidebar-right.html">Right Sidebar</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children has-mega-menu"><a href="index-2.html">Product</a><span class="sub-toggle"></span>
+                    <div class="mega-menu">
+                        <div class="mega-menu__column">
+                            <h4>Product detail features<span class="sub-toggle"></span></h4>
+                            <ul class="mega-menu__list">
+                                <li><a href="product-color-swatch.html">Product Color Swatch</a>
+                                </li>
+                                <li><a class="has-badge" href="product-gallery-swatch.html">Product Gallery Swatch</a>
+                                </li>
+                                <li><a href="product-image-swatch.html">Product Images Swatch</a>
+                                </li>
+                                <li><a href="product-360-video.html">Product 360 Video</a>
+                                </li>
+                                <li><a href="product-external.html">External/Affilitte Product</a>
+                                </li>
+                                <li><a href="product-group.html">Grouped Product</a>
+                                </li>
+                                <li><a class="has-badge hot" href="product-bundle.html">Product Bundle</a>
+                                </li>
+                                <li><a href="product-fullwidth.html">Product Full width layout</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu__column">
+                            <h4>Product Detail Layout<span class="sub-toggle"></span></h4>
+                            <ul class="mega-menu__list">
+                                <li><a href="product-standard.html">Product Standard</a>
+                                </li>
+                                <li><a href="product-gallery.html">Product Gallery</a>
+                                </li>
+                                <li><a href="product-sticky.html">Sticky</a>
+                                </li>
+                                <li><a class="has-badge hot" href="product-sticky-2.html">Product Sticky 2</a>
+                                </li>
+                                <li><a href="product-thumbnail-outside.html">Product thumbnail at outside</a>
+                                </li>
+                                <li><a href="product-thumbnail-bottom.html">Product thumbnail at Bottom</a>
+                                </li>
+                                <li><a href="product-thumbnail-right.html">Product thumbnail right</a>
+                                </li>
+                                <li><a href="product-accordion.html">Product Accordion</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a class="has-badge sale" href="shop-4-column.html">Sale</a>
+                </li>
+                <li class="menu-item-has-children"><a href="portfolio-2-columns.html">Portfolio</a><span class="sub-toggle"></span>
+                    <ul class="sub-menu">
+                        <li><a href="portfolio-2-columns.html">Portfolio 2 columns</a></li>
+                        <li><a href="portfolio-3-columns.html">Portfolio 3 columns</a></li>
+                        <li><a href="portfolio-4-columns.html">Portfolio 4 columns</a></li>
+                        <li><a href="portfolio-detail.html">Portfolio Detail</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="lookbook-in-product.html">Lookbook</a><span class="sub-toggle"></span>
+                    <ul class="sub-menu">
+                        <li><a href="lookbook-in-product.html">Lookbook In Product</a></li>
+                        <li><a href="lookbook-in-post.html">Lookbook In Single Blog Post</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item-has-children"><a href="blog-grid.html">Blog</a><span class="sub-toggle"></span>
+                    <ul class="sub-menu">
+                        <li><a href="blog-grid.html">Blog Grid</a></li>
+                        <li><a href="blog-grid-left-sidebar.html">Blog Grid Left Sidebar</a></li>
+                        <li><a href="blog-masonry.html">Blog Masonry</a></li>
+                        <li><a href="blog-detail.html">Blog Detail</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</th:block>
+
+</body>
+</html>
